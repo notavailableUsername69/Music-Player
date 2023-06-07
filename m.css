@@ -1,0 +1,35 @@
+#music-player {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#song-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#song-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#seek-bar-container {
+    margin-top: 20px;
+}
+
+#seek-bar {
+    width: 300px;
+}
+
+#volume-container {
+    margin-top: 20px;
+}
+
+#volume-bar {
+    width: 100px;
+}

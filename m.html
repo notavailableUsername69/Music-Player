@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="m.css">
+</head>
+<body>
+    <div id="music-player">
+        <h1>Music Player</h1>
+        <audio id="audio-player" src=""></audio>
+        <div id="controls">
+            <button id="play-btn">Play</button>
+            <button id="pause-btn">Pause</button>
+            <button id="stop-btn">Stop</button>
+        </div>
+        <div id="seek-bar-container">
+            <input type="range" id="seek-bar" min="0" step="0.1" value="0">
+            <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
+        </div>
+        <div id="volume-container">
+            <label for="volume-bar">Volume:</label>
+            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+        </div>
+        <div id="playlist">
+            <h2>Playlist</h2>
+            <ul id="song-list"></ul>
+        </div>
+    </div>
+
+    <script src="m.js"></script>
+</body>
+</html>
